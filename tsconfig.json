@@ -25,8 +25,11 @@
       "~/components/*": [
         "./components/*"
       ],
-      "data/*": [
+      "~/data/*": [
         "./data/*"
+      ],
+      "~/assets/*": [
+        "./assets/*"
       ],
     }
   },

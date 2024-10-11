@@ -1,4 +1,4 @@
-import { LinkSocials } from "data/LinkSocials";
+import { LinkSocials } from "~/data/LinkSocials";
 import Link from "next/link";
 import React from "react";
 
