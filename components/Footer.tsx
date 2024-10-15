@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className='flex justify-center  lg:h-[100dvh] w-full'>
-      <div className='mt-[20dvh] flex flex-col items-center '>
+      <div className='pt-[10%] flex flex-col items-center '>
         <h1 className='font-bold text-[10dvw] lg:text-[13dvw] leading-[13dvw] tracking-[0px] lg:tracking-[10px] uppercase'>
           let&apos;s talk
         </h1>
