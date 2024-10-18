@@ -4,8 +4,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className='flex justify-center  lg:h-[100dvh] w-full'>
-      <div className='pt-[10%] flex flex-col items-center '>
+    <footer className='flex justify-center items-end  lg:h-[100dvh] w-full'>
+      <div className='flex flex-col justify-center items-center  h-[70dvh] pb-[10%]'>
         <h1 className='font-bold text-[10dvw] lg:text-[13dvw] leading-[13dvw] tracking-[0px] lg:tracking-[10px] uppercase'>
           let&apos;s talk
         </h1>
@@ -20,18 +20,18 @@ function Footer() {
               {link.text}
             </Link>
           ))}
+          <span className='mt-10'>
+            <p className='text-sm'>
+              © 2024 create by{" "}
+              <a
+                href='/'
+                className='hover:text-hoverColor hover:delay-75 hover:duration-300 hover:ease-in-out cursor-pointer'
+              >
+                Ouzepe
+              </a>
+            </p>
+          </span>
         </div>
-        <span className='mt-10'>
-          <p className='text-sm'>
-            © 2024 create by{" "}
-            <a
-              href='/'
-              className='hover:text-hoverColor hover:delay-75 hover:duration-300 hover:ease-in-out cursor-pointer'
-            >
-              Ouzepe
-            </a>
-          </p>
-        </span>
       </div>
     </footer>
   );

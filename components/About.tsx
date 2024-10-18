@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className='h-svh flex justify-center items-center' id='about'>
+    <div className='h-[250svh] flex justify-center' id='about'>
       <div className='w-[50vw] flex flex-col items-center'>
         <h1 className='mt-[50%] lg:mt-[10%] uppercase font-bold text-6xl lg:text-[15dvw]'>
           Hello!{" "}
@@ -15,7 +15,7 @@ export const About = () => {
           </p>
         </div>
 
-        {/* <p className='mt-[10vw] lg:w-[40dvw]'>
+        <p className='mt-[10vw] lg:w-[40dvw]'>
           I&apos;m a challenger by heart and builder by nature. Over the years i
           have spent time converting designs into pixel-perfect, performance,
           accessible, and responsive applications/websites. You can simply
@@ -32,7 +32,7 @@ export const About = () => {
           addict. When i&apos;m not at the computer, i&apos;m usually hanging
           out with friends, learning a new crat, or going o a tour with my
           family and close friends.
-        </p> */}
+        </p>
       </div>
     </div>
   );
