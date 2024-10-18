@@ -15,3 +15,16 @@ body {
 ::-webkit-scrollbar {
   overflow-y: hidden;
 }
+@keyframes defilement-rtl {
+  0% {
+    transform: translate3d(0, 0, -100%);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@layer utilities {
+  .animate-defilement-rtl {
+    animation: defilement-rtl 100s linear infinite;
+  }
+}
